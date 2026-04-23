@@ -4,17 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Java todo REST API. Directory currently empty — populate with build files and source before expanding this file.
+Java todo REST API. Git initialized, source not yet added.
 
-## Expected Stack
-
-- Java 21+
-- Spring Boot 3.x (assumed from project type)
-- Maven or Gradle
+- GitHub: https://github.com/AngeloAntonioScholze/todo-api
+- Stack: Java 21+, Spring Boot 3.x, Maven or Gradle (TBD)
 
 ## Commands
 
-> Fill in once project is initialized.
+> Expand once build system chosen.
 
 ```bash
 # Maven
@@ -30,7 +27,6 @@ Java todo REST API. Directory currently empty — populate with build files and 
 
 ## Notes
 
-Parent project standards live in `C:\Users\angelo\Documents\projects\CLAUDE.md`. Key overrides for Java:
-- This is a Java project, not TypeScript/Python
+Parent standards: `C:\Users\angelo\Documents\projects\CLAUDE.md`. Java overrides:
 - Use Maven or Gradle (not Bun/uv)
 - Use Checkstyle or Spotless for formatting
