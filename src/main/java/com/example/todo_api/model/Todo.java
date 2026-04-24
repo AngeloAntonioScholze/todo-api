@@ -12,8 +12,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 @Entity
 @Table(name="todos")
 public class Todo {
@@ -24,7 +26,7 @@ public class Todo {
     private String title;
     @Column
     private String description;
-    @Column
+    @Column(nullable=false)
     private boolean  completed = false;
     @Column(nullable=false, updatable=false)
     @CreationTimestamp

@@ -34,10 +34,12 @@ model/        → JPA entities
 
 - [x] Todo entity (`model/Todo.java`)
 - [x] TodoRepository (`repository/TodoRepository.java`)
-- [ ] TodoService
-- [ ] TodoController
-- [ ] Error handling
+- [x] TodoService
+- [x] TodoController
+- [x] Error handling
 - [ ] Tests
+- [ ] Authentication (Spring Security + JWT)
+- [ ] DB migrations (Flyway + PostgreSQL)
 
 ## Notes
 
